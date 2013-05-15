@@ -71,6 +71,10 @@ alias show='open -a Finder'
 alias textedit='open -a TextEdit'
 alias writer='open -a iA\ Writer'
 
+# Gem
+alias gem update='gem update --system'
+alias gem upgrade='gem update'
+
 # Extras
 alias flush="sudo killall -HUP mDNSResponder"
 alias rmdss="find . -name '*.DS_Store' -type f -delete"
