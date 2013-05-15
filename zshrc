@@ -38,7 +38,7 @@ bindkey '^[[B' history-search-forward
 
 # Prompt
 # Show '>:' in green when things are happy and red when they're not.
-PROMPT=$'%{\e[0;%(?.32.31)m%}>>%{\e[0m%} '
+PROMPT=$'%{\e[0;%(?.32.31)m%}>:%{\e[0m%} '
 RPROMPT='%F{8}%~%F{reset}'
 
 # ZSH
