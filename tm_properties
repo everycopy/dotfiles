@@ -1,0 +1,28 @@
+fontName	          = "Source Code Pro"
+fontSize	          = 13
+showInvisibles        = true
+tabSize		          = 2
+softTabs	          = true
+softWrap	          = true
+wrapColumn            = 80
+showWrapColumn        = false
+
+# Includes
+include		          = "{*,.tm_properties,.htaccess,.gitignore}"
+
+# Excludes
+ExtraExcludes         = "bin,log,logs,public,vendor,tmp,*.lock"
+excludeInBrowser      = "{$excludeInBrowser,$ExtraExcludes}"
+excludeInFileChooser  = "{$excludeInFileChooser,$ExtraExcludes}"
+excludeInFolderSearch = "{$excludeInFolderSearch,$ExtraExcludes}"
+
+[ source.ruby ]
+softTabs              = true
+tabSize               = 2
+
+[ source.python ]
+softTabs              = true
+tabSize               = 4
+
+[ "{README,INSTALL,LICENSE,TODO}" ]
+fileType              = "text.plain"
