@@ -1,14 +1,14 @@
-fontName	          = "Source Code Pro"
-fontSize	          = 13
+fontName              = "Source Code Pro"
+fontSize              = 13
 showInvisibles        = true
-tabSize		          = 2
-softTabs	          = true
-softWrap	          = true
+tabSize               = 2
+softTabs              = true
+softWrap              = true
 wrapColumn            = 80
 showWrapColumn        = false
 
 # Includes
-include		          = "{*,.tm_properties,.htaccess,.gitignore}"
+Includes              = "{*,.tm_properties,.htaccess,.gitignore}"
 
 # Excludes
 ExtraExcludes         = "bin,log,logs,public,vendor,tmp,*.lock"
