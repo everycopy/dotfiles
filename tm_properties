@@ -1,11 +1,11 @@
 fontName              = "Source Code Pro"
 fontSize              = 13
 showInvisibles        = true
-tabSize               = 2
+showWrapColumn        = false
 softTabs              = true
 softWrap              = true
-wrapColumn            = 80
-showWrapColumn        = false
+tabSize               = 2
+wrapColumn            = 70
 
 # Includes
 Includes              = "{*,.tm_properties,.htaccess,.gitignore}"
