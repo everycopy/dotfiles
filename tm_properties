@@ -11,7 +11,7 @@ wrapColumn            = 70
 Includes              = "{*,.tm_properties,.htaccess,.gitignore}"
 
 # Excludes
-ExtraExcludes         = "bin,log,logs,public,vendor,tmp,*.lock"
+ExtraExcludes         = "bin,log,logs,node_modules,public,tmp,vendor,*.lock,*.sass-cache"
 excludeInBrowser      = "{$excludeInBrowser,$ExtraExcludes}"
 excludeInFileChooser  = "{$excludeInFileChooser,$ExtraExcludes}"
 excludeInFolderSearch = "{$excludeInFolderSearch,$ExtraExcludes}"
