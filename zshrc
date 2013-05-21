@@ -78,3 +78,6 @@ alias gem upgrade='gem update'
 # Extras
 alias flush="sudo killall -HUP mDNSResponder"
 alias rmdss="find . -name '*.DS_Store' -type f -delete"
+
+# Use Homebrew rather than ~/.rbenv
+export RBENV_ROOT=/usr/local/var/rbenv
