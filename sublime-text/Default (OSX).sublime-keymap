@@ -1,0 +1,31 @@
+[
+    { "keys": ["super+v"], "command": "paste_and_indent"},
+    { "keys": ["super+shift+v"], "command": "paste" },
+    { "keys": ["ctrl+shift+d"], "command": "duplicate_line" },
+    {"keys": ["ctrl+super+r"], "command": "reveal_in_side_bar"},
+    { "keys": ["super+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+    { "keys": ["super+1"], "command": "focus_group", "args": { "group": 0 } },
+    { "keys": ["super+2"], "command": "focus_group", "args": { "group": 1 } },
+    { "keys": ["super+3"], "command": "focus_group", "args": { "group": 2 } },
+    { "keys": ["super+4"], "command": "focus_group", "args": { "group": 3 } },
+    { "keys": ["super+5"], "command": "focus_group", "args": { "group": 4 } },
+    { "keys": ["super+6"], "command": "focus_group", "args": { "group": 5 } },
+    { "keys": ["super+7"], "command": "focus_group", "args": { "group": 6 } },
+    { "keys": ["super+8"], "command": "focus_group", "args": { "group": 7 } },
+    { "keys": ["super+9"], "command": "focus_group", "args": { "group": 8 } },
+
+    // Snippets
+    // CSS: "{ }"
+    { "keys": ["{"], "command": "insert_snippet", "args": { "name": "Packages/User/CSS/brackets.sublime-snippet" }, "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "source.css, source.scss" }
+        ]
+    },
+
+    // CSS: ": ;"
+    { "keys": [":"], "command": "insert_snippet", "args": { "name": "Packages/User/CSS/punctuation.sublime-snippet" }, "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "source.css, source.scss" }
+        ]
+    }
+]
