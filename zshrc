@@ -65,7 +65,7 @@ alias s='subl .'
 alias w='which'
 
 # Directories
-alias l='ls -A'
+alias l='ls'
 alias la='ls -A'
 alias ls='ls -F'
 alias ll='ls -l'
@@ -77,10 +77,6 @@ alias preview='open -a Preview'
 alias safari='open -a Safari'
 alias textedit='open -a TextEdit'
 alias writer='open -a iA\ Writer'
-
-# Gem
-alias gem update='gem update --system'
-alias gem upgrade='gem update'
 
 # Extras
 alias flush="sudo killall -HUP mDNSResponder"
