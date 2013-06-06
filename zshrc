@@ -52,8 +52,8 @@ alias .....='../../../..'
 alias //='cd -'
 
 # Directories
-alias l='ls'
-alias la='ls -A'
+alias l='ls -A'
+alias la='ls -lA'
 alias ls='ls -F'
 alias ll='ls -l'
 
