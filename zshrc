@@ -49,7 +49,7 @@ alias config='subl ~/.zshrc'
 alias ...='../..'
 alias ....='../../..'
 alias .....='../../../..'
-alias --='cd -'
+alias //='cd -'
 
 # Directories
 alias l='ls'
