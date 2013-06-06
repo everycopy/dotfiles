@@ -75,7 +75,6 @@ alias chrome='open -a Google\ Chrome'
 alias firefox='open -a Firefox'
 alias preview='open -a Preview'
 alias safari='open -a Safari'
-alias textedit='open -a TextEdit'
 alias writer='open -a iA\ Writer'
 
 # Extras
