@@ -78,7 +78,7 @@ alias safari='open -a Safari'
 alias writer='open -a iA\ Writer'
 
 # Extras
-alias flush="sudo killall -HUP mDNSResponder"
+alias flush="dscacheutil -flushcache"
 alias rmdss="find . -name '*.DS_Store' -type f -delete"
 
 # Software Update
