@@ -51,6 +51,12 @@ alias -g ....='../../..'
 alias -g .....='../../../..'
 alias -g --='cd -'
 
+# Directories
+alias l='ls'
+alias la='ls -A'
+alias ls='ls -F'
+alias ll='ls -l'
+
 # Shortcuts
 alias c='clear'
 alias de='cd ~/Documents/Code'
@@ -63,12 +69,6 @@ alias oo='open .'
 alias q='exit'
 alias s='subl .'
 alias w='which'
-
-# Directories
-alias l='ls'
-alias la='ls -A'
-alias ls='ls -F'
-alias ll='ls -l'
 
 # Applications
 alias chrome='open -a Google\ Chrome'
