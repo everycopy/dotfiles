@@ -45,20 +45,27 @@ RPROMPT='%F{8}%~%F{reset}'
 alias reload='source ~/.zshrc && echo "Your .zshrc was reloaded." '
 alias config='subl ~/.zshrc'
 
-# Basic
-alias c='clear'
-alias h='history'
-alias q='exit'
-alias w='which'
-
 # Navigation
 alias -g ...='../..'
 alias -g ....='../../..'
 alias -g .....='../../../..'
 alias -g --='cd -'
-alias code='cd ~/Documents/Code'
+
+# Shortcuts
+alias c='clear'
+alias de='cd ~/Documents/Code'
+alias dr='cd ~/Documents/Dropbox'
+alias dt='cd ~/Desktop'
+alias g='git'
+alias h='history'
+alias o='open'
+alias oo='open .'
+alias q='exit'
+alias s='subl .'
+alias w='which'
 
 # Directories
+alias l='ls -A'
 alias la='ls -A'
 alias ls='ls -F'
 alias ll='ls -l'
@@ -68,7 +75,6 @@ alias chrome='open -a Google\ Chrome'
 alias firefox='open -a Firefox'
 alias preview='open -a Preview'
 alias safari='open -a Safari'
-alias show='open -a Finder'
 alias textedit='open -a TextEdit'
 alias writer='open -a iA\ Writer'
 
