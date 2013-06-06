@@ -81,5 +81,8 @@ alias writer='open -a iA\ Writer'
 alias flush="sudo killall -HUP mDNSResponder"
 alias rmdss="find . -name '*.DS_Store' -type f -delete"
 
+# Software Update
+alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm update npm -g; npm update -g; gem update --system; gem update'
+
 # Use Homebrew rather than ~/.rbenv
 export RBENV_ROOT=/usr/local/var/rbenv
