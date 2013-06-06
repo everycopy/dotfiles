@@ -55,6 +55,7 @@ alias w='which'
 alias -g ...='../..'
 alias -g ....='../../..'
 alias -g .....='../../../..'
+alias -g --='cd -'
 alias code='cd ~/Documents/Code'
 
 # Directories
