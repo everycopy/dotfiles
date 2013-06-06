@@ -52,8 +52,8 @@ alias .....='../../../..'
 alias //='cd -'
 
 # Directories
-alias l='ls'
-alias la='ls -A'
+alias l='ls -A'
+alias la='ls -lA'
 alias ls='ls -F'
 alias ll='ls -l'
 
@@ -80,6 +80,8 @@ alias writer='open -a iA\ Writer'
 # Extras
 alias flush="sudo killall -HUP mDNSResponder"
 alias rmdss="find . -name '*.DS_Store' -type f -delete"
+
+alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm update npm -g; npm update -g; gem update --system; gem update'
 
 # Use Homebrew rather than ~/.rbenv
 export RBENV_ROOT=/usr/local/var/rbenv
