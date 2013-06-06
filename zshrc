@@ -46,10 +46,10 @@ alias reload='source ~/.zshrc && echo "Your .zshrc was reloaded." '
 alias config='subl ~/.zshrc'
 
 # Navigation
-alias -g ...='../..'
-alias -g ....='../../..'
-alias -g .....='../../../..'
-alias -g --='cd -'
+alias ...='../..'
+alias ....='../../..'
+alias .....='../../../..'
+alias --='cd -'
 
 # Directories
 alias l='ls'
