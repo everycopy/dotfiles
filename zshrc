@@ -87,3 +87,21 @@ alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup
 
 # Use Homebrew rather than ~/.rbenv
 export RBENV_ROOT=/usr/local/var/rbenv
+
+# Put files and folders in the trash rather then removing them
+# Adapted from https://gist.github.com/aqualungdesign/4612606
+function rm () {
+  local file_path
+  for file_path in "$@"; do
+    if [[ "$file_path" = -* ]]; then :
+    else
+      local dest=${file_path##*/}
+      # If the file already exists add the current time
+      # Replace am/pm with AM/PM because striftime is missing '%P'
+      while [ -e ~/.Trash/"$dest" ]; do
+        dest="$dest "$(date +%l.%M.%S\ %p | tr 'apm' 'APM')
+      done
+      /bin/mv "$file_path" ~/.Trash/"$dest"
+    fi
+  done
+}
