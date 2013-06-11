@@ -57,8 +57,7 @@ alias ls='ls -F'
 alias ll='ls -l'
 
 # Shortcuts
-alias c='clear'
-alias de='cd ~/Documents/Code'
+alias c='cd ~/Documents/Code'
 alias dr='cd ~/Documents/Dropbox'
 alias dt='cd ~/Desktop'
 alias g='git'
