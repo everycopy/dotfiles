@@ -5,7 +5,7 @@ showWrapColumn        = false
 softTabs              = true
 softWrap              = true
 tabSize               = 2
-wrapColumn            = 70
+wrapColumn            = 80
 
 # Includes
 Includes              = "{*,.tm_properties,.htaccess,.gitignore}"
