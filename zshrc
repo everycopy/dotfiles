@@ -88,7 +88,7 @@ export RBENV_ROOT=/usr/local/var/rbenv
 
 # Put files and folders in the trash rather then removing them
 # Adapted from https://gist.github.com/aqualungdesign/4612606
-function rm () {
+function trash () {
   local file_path
   for file_path in "$@"; do
     if [[ "$file_path" = -* ]]; then :
