@@ -3,6 +3,7 @@
 	[
 		"AdvancedNewFile",
 		"Bower",
+		"CoffeeScript",
 		"Gist",
 		"GitGutter",
 		"Package Control"
