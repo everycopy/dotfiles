@@ -1,3 +1,7 @@
+# Functions
+fpath=(~/.zsh/functions $fpath)
+autoload -U ~/.zsh/functions/*(:t)
+
 # Colours
 autoload -U colors
 colors
@@ -13,6 +17,7 @@ HISTFILE=$HOME/.zsh_history
 HISTSIZE=1000
 SAVEHIST=$HISTSIZE
 setopt append_history
+setopt complete_aliases
 setopt extended_history
 setopt hist_ignore_all_dups
 setopt hist_ignore_space
@@ -27,6 +32,7 @@ setopt share_history
 # Completion
 autoload -U compinit
 compinit
+zstyle ':completion:*' menu select
 
 # Path
 setopt auto_cd
@@ -57,7 +63,6 @@ alias ls='ls -F'
 alias ll='ls -l'
 
 # Shortcuts
-alias c='cd ~/Documents/Code'
 alias dr='cd ~/Documents/Dropbox'
 alias dt='cd ~/Desktop'
 alias g='git'
@@ -85,21 +90,3 @@ alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup
 
 # Use Homebrew rather than ~/.rbenv
 export RBENV_ROOT=/usr/local/var/rbenv
-
-# Put files and folders in the trash rather then removing them
-# Adapted from https://gist.github.com/aqualungdesign/4612606
-function trash () {
-  local file_path
-  for file_path in "$@"; do
-    if [[ "$file_path" = -* ]]; then :
-    else
-      local dest=${file_path##*/}
-      # If the file already exists add the current time
-      # Replace am/pm with AM/PM because striftime is missing '%P'
-      while [ -e ~/.Trash/"$dest" ]; do
-        dest="$dest "$(date +%l.%M.%S\ %p | tr 'apm' 'APM')
-      done
-      /bin/mv "$file_path" ~/.Trash/"$dest"
-    fi
-  done
-}
