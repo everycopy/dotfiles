@@ -32,7 +32,9 @@ setopt share_history
 # Completion
 autoload -U compinit
 compinit
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 zstyle ':completion:*' menu select
+zstyle ':completion:*' insert-tab pending
 
 # Path
 setopt auto_cd
@@ -47,7 +49,7 @@ PROMPT=$'%{\e[0;%(?.32.31)m%}>:%{\e[0m%} '
 RPROMPT='%F{8}%~%F{reset}'
 
 # ZSH
-alias reload='source ~/.zshrc && echo "Your .zshrc was reloaded." '
+alias reload='. ~/.zshrc && echo "Your .zshrc was reloaded." '
 alias config='subl ~/.zshrc'
 
 # Navigation
@@ -66,7 +68,6 @@ alias ll='ls -l'
 alias dr='cd ~/Documents/Dropbox'
 alias dt='cd ~/Desktop'
 alias g='git'
-alias h='history'
 alias m='mate .'
 alias o='open'
 alias oo='open .'
