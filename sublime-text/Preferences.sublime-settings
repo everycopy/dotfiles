@@ -10,8 +10,10 @@
 		".svn",
 		".git",
 		".hg",
-		"CVS",
 		".sass-cache",
+		"bower_components",
+		"components",
+		"CVS",
 		"node_modules"
 	],
 	"font_face": "Source Code Pro",
