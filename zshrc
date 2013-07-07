@@ -85,6 +85,7 @@ alias writer='open -a iA\ Writer'
 # Extras
 alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
 alias flush="dscacheutil -flushcache"
+alias rake="noglob rake"
 
 # Software Update
 alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm update npm -g; npm update -g; gem update --system; gem update'
