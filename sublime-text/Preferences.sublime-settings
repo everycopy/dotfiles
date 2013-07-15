@@ -18,7 +18,6 @@
 	],
 	"font_face": "Source Code Pro",
 	"font_size": 13,
-	"highlight_line": true,
 	"ignored_packages":
 	[
 		"Vintage"
