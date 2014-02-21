@@ -49,8 +49,9 @@ PROMPT=$'%{\e[0;%(?.32.31)m%}>:%{\e[0m%} '
 RPROMPT='%F{8}%~%F{reset}'
 
 # ZSH
-alias reload='. ~/.zshrc && echo "Your .zshrc was reloaded." '
 alias config='subl ~/.zshrc'
+alias dotfiles='subl ~/Documents/Code/dotfiles'
+alias reload='. ~/.zshrc && echo "Your .zshrc was reloaded." '
 
 # Navigation
 alias ...='../..'
