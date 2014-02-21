@@ -1,2 +1,0 @@
-# Set this before installing Pow.
-export POW_DST_PORT=88
