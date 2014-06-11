@@ -75,6 +75,7 @@ alias o='open'
 alias oo='open .'
 alias q='exit'
 alias s='subl .'
+alias t='trash'
 alias w='which'
 
 # Applications
