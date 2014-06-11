@@ -82,7 +82,7 @@ alias chrome='open -a Google\ Chrome'
 alias firefox='open -a Firefox'
 alias preview='open -a Preview'
 alias safari='open -a Safari'
-alias writer='open -a iA\ Writer'
+alias writer='open -a Writer\ Pro'
 
 # Extras
 alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
