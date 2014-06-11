@@ -94,6 +94,3 @@ alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup
 
 # Use Homebrew rather than ~/.rbenv
 export RBENV_ROOT=/usr/local/var/rbenv
-
-# Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
