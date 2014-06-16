@@ -16,7 +16,6 @@
     'exception-reporting'
     'metrics'
   ]
-  'projectHome': '/Users/james/Documents/Code'
   'themes': [
     'encounters-dark-ui'
     'encounters-dark-syntax'
