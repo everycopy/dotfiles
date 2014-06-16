@@ -1,0 +1,38 @@
+'release-notes':
+  'viewedVersion': '0.95.0'
+'welcome':
+  'showOnStartup': false
+'editor':
+  'fontSize': 13
+  'fontFamily': 'Source Code Pro'
+  'lineHeight': 1.4
+  'softWrapAtPreferredLineLength': true
+  'softWrap': true
+  'showIndentGuide': true
+  'showInvisibles': true
+'core':
+  'disabledPackages': [
+    'background-tips'
+    'exception-reporting'
+    'metrics'
+  ]
+  'projectHome': '/Users/james/Documents/Code'
+  'themes': [
+    'encounters-dark-ui'
+    'encounters-dark-syntax'
+  ]
+  'ignoredNames': [
+    '.DS_Store'
+    '.git'
+    '.hg'
+    '.sass-cache'
+    '.svn'
+    'bower_components'
+    'components'
+    'CVS'
+    'node_modules'
+    'temp'
+    'Thumbs.db'
+  ]
+'autosave':
+  'enabled': true
