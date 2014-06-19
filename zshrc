@@ -8,7 +8,7 @@ colors
 setopt prompt_subst
 
 # Default Apps
-EDITOR='subl'
+EDITOR='atom'
 BROWSER='open'
 PAGER='less'
 
@@ -49,8 +49,8 @@ PROMPT=$'%{\e[0;%(?.32.31)m%}>:%{\e[0m%} '
 RPROMPT='%F{8}%~%F{reset}'
 
 # ZSH
-alias config='subl ~/.zshrc'
-alias dotfiles='subl ~/Documents/Code/dotfiles'
+alias config='e ~/.zshrc'
+alias dotfiles='e ~/Documents/Code/dotfiles'
 alias reload='. ~/.zshrc && echo "Your .zshrc was reloaded." '
 
 # Navigation
@@ -66,15 +66,12 @@ alias ls='ls -F'
 alias ll='ls -lh'
 
 # Shortcuts
-alias a='atom .'
 alias dr='cd ~/Documents/Dropbox'
 alias dt='cd ~/Desktop'
 alias g='git'
-alias m='mate .'
 alias o='open'
 alias oo='open .'
 alias q='exit'
-alias s='subl .'
 alias t='trash'
 alias w='which'
 
