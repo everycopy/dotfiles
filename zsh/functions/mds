@@ -1,6 +1,0 @@
-# Make a directory and navigate into it (and make any directories in-between)
-# Open the directory in Sublime Text
-function mds () {
-  mkdir -p $1 && cd $1
-  subl .
-}
