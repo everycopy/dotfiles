@@ -61,9 +61,9 @@ alias //='cd -'
 
 # Directories
 alias l='ls -A'
-alias la='ls -lA'
+alias la='ls -lhA'
 alias ls='ls -F'
-alias ll='ls -l'
+alias ll='ls -lh'
 
 # Shortcuts
 alias a='atom .'
