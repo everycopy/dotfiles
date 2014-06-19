@@ -9,7 +9,6 @@
   'softWrapAtPreferredLineLength': true
   'softWrap': true
   'showIndentGuide': true
-  'showInvisibles': true
 'core':
   'disabledPackages': [
     'background-tips'
