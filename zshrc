@@ -66,7 +66,6 @@ alias ls='ls -F'
 alias ll='ls -lh'
 
 # Shortcuts
-alias dr='cd ~/Documents/Dropbox'
 alias dt='cd ~/Desktop'
 alias g='git'
 alias o='open'
