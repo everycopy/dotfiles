@@ -4,6 +4,7 @@
 	[
 		"AdvancedNewFile",
 		"Bower",
+		"CoffeeScript",
 		"GitGutter",
 		"LESS",
 		"Package Control"
