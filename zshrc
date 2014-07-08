@@ -60,10 +60,10 @@ alias .....='../../../..'
 alias //='cd -'
 
 # Directories
-alias l='ls -A'
-alias la='ls -lhA'
+alias l='ls'
+alias la='ls -A'
 alias ls='ls -F'
-alias ll='ls -lh'
+alias ll='ls -alF'
 
 # Shortcuts
 alias dt='cd ~/Desktop'
