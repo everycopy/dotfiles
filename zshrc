@@ -51,7 +51,7 @@ RPROMPT='%F{8}%~%F{reset}'
 # ZSH
 alias config='e ~/.zshrc'
 alias dotfiles='e ~/Documents/Code/dotfiles'
-alias reload='. ~/.zshrc && echo "Your .zshrc was reloaded." '
+alias reload='. ~/.zshrc && echo "Your .zshrc was reloaded."'
 
 # Navigation
 alias ...='../..'
