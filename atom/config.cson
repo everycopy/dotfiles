@@ -16,8 +16,8 @@
     'metrics'
   ]
   'themes': [
-    'encounters-dark-ui'
-    'encounters-dark-syntax'
+    'encounters-light-ui'
+    'encounters-light-syntax'
   ]
   'ignoredNames': [
     '.DS_Store'
