@@ -92,3 +92,6 @@ alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup
 
 # Use Homebrew rather than ~/.rbenv
 export RBENV_ROOT=/usr/local/var/rbenv
+
+# Add the Qt stuff to the path explicitly (so we can use qmake)
+export PATH="$PATH:$HOME/Qt5.3.1/5.3/clang_64/bin"
