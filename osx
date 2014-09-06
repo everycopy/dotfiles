@@ -26,4 +26,4 @@ defaults write com.apple.dock dashboard-in-overlay -bool true
 defaults write com.apple.dock mru-spaces -bool false
 
 # Don't hide the iPhone Simulator app inside Xcode
-ln -s /Applications/Xcode.app/Contents/Applications/iPhone\ Simulator.app /Applications/iPhone\ Simulator.app
+ln -s /Applications/Xcode.app/Contents/Applications/iOS\ Simulator.app /Applications/iOS\ Simulator.app
