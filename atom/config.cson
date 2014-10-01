@@ -6,10 +6,10 @@
   'fontSize': 13
   'fontFamily': 'Source Code Pro'
   'lineHeight': 1.4
-  'invisibles': {}
   'showIndentGuide': true
   'softWrapAtPreferredLineLength': true
   'softWrapped': true
+  'softWrap': true
 'core':
   'disabledPackages': [
     'background-tips'
