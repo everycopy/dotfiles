@@ -13,3 +13,20 @@
 #     'prefix': 'log'
 #     'body': 'console.log $1'
 #
+
+'.source.css, .source.scss':
+  '!important':
+    'prefix': '!'
+    'body': '!important$0'
+  'display: block':
+    'prefix': 'db'
+    'body': 'display: block;$0'
+  'display: inline':
+    'prefix': 'di'
+    'body': 'display: inline;$0'
+  'display: none':
+    'prefix': 'dn'
+    'body': 'display: none;$0'
+  'z-index: index':
+    'prefix': 'z'
+    'body': 'z-index: $1;$0'
