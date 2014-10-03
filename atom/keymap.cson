@@ -16,3 +16,7 @@
 #   'ctrl-P': 'core:move-up'
 #   'ctrl-p': 'core:move-down'
 #
+
+'.workspace':
+  'alt-down': 'editor:add-selection-above'
+  'alt-up': 'editor:add-selection-above'
