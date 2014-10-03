@@ -12,3 +12,6 @@
 #   editor = editorView.getEditor()
 #   if path.extname(editor.getPath()) is '.md'
 #     editor.setSoftWrap(true)
+
+atom.workspaceView.command 'editor:insert-br', ->
+  atom.workspace.getActiveEditor()?.insertText('<br>')

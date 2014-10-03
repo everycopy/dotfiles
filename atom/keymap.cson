@@ -20,3 +20,6 @@
 # '.workspace':
 #   'alt-down': 'editor:add-selection-above'
 #   'alt-up': 'editor:add-selection-above'
+
+'.editor':
+  'ctrl-enter': 'editor:insert-br'
