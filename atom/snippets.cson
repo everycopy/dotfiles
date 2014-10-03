@@ -27,6 +27,12 @@
   'display: none':
     'prefix': 'dn'
     'body': 'display: none;$0'
+  'height':
+    'prefix': 'h'
+    'body': 'height: $1;$0'
+  'width':
+    'prefix': 'w'
+    'body': 'width: $1;$0'
   'z-index: index':
     'prefix': 'z'
     'body': 'z-index: $1;$0'
