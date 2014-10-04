@@ -18,6 +18,9 @@
   '!important':
     'prefix': '!'
     'body': '!important$0'
+  'color':
+    'prefix': 'c'
+    'body': 'color: $1;$0'
   'display: block':
     'prefix': 'db'
     'body': 'display: block;$0'
@@ -30,6 +33,12 @@
   'height':
     'prefix': 'h'
     'body': 'height: $1;$0'
+  'line-height':
+    'prefix': 'lh'
+    'body': 'line-height: $1;$0'
+  'text-transform: uppercase':
+    'prefix': 'tt'
+    'body': 'text-transform: ${1:uppercase};$0'
   'width':
     'prefix': 'w'
     'body': 'width: $1;$0'
