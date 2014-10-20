@@ -19,7 +19,7 @@
       'metrics'
     ]
     'themes': [
-      'atom-light-ui'
+      'unity-ui'
       'atom-light-syntax'
     ]
     'ignoredNames': [
