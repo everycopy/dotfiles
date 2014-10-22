@@ -19,8 +19,8 @@
       'metrics'
     ]
     'themes': [
-      'unity-ui'
-      'atom-light-syntax'
+      'encounters-light-ui'
+      'encounters-light-syntax'
     ]
     'ignoredNames': [
       '.DS_Store'
