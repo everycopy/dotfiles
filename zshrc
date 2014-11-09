@@ -1,6 +1,11 @@
+# Paths
+# Use Homebrew rather than ~/.rbenv
+export RBENV_ROOT=/usr/local/var/rbenv
+
 # Functions
 fpath=(~/.zsh/functions $fpath)
 autoload -U ~/.zsh/functions/*(:t)
+eval "$(rbenv init -)"
 
 # Colours
 autoload -U colors
@@ -81,9 +86,3 @@ alias rake="noglob rake"
 
 # Software Update
 alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm update npm -g; npm update -g; gem update --system; gem update; gem cleanup'
-
-# Enable rbenv shims and autocompletion
-eval "$(rbenv init -)"
-
-# Use Homebrew rather than ~/.rbenv
-export RBENV_ROOT=/usr/local/var/rbenv
