@@ -9,3 +9,4 @@
 	required = true
 [alias]
 	co = checkout
+	up = !git pull --rebase --prune $@ && git submodule update --init --recursive
