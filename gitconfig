@@ -8,6 +8,7 @@
 	smudge = git hawser smudge %f
 	required = true
 [alias]
+	amend = commit -a --amend
 	cm = !git add -A && git commit -m
 	co = checkout
 	cob = checkout -b
