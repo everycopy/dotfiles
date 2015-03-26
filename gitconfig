@@ -3,15 +3,11 @@
 	email = james@sodapopandco.com
 [core]
 	excludesfile = /Users/james/.gitignore_global
-[filter "hawser"]
-	clean = git hawser clean %f
-	smudge = git hawser smudge %f
-	required = true
 [alias]
 	amend = commit -a --amend
 	cm = !git add -A && git commit -m
 	co = checkout
 	cob = checkout -b
-	save = !git add -A && git commit -m 'SAVEPOINT'
+	save = !git add -A && git commit -m "Save changes for later"
 	up = !git pull --rebase --prune $@ && git submodule update --init --recursive
 	undo = reset HEAD~1 --mixed
