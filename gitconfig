@@ -11,4 +11,6 @@
 	cm = !git add -A && git commit -m
 	co = checkout
 	cob = checkout -b
+	save = !git add -A && git commit -m 'SAVEPOINT'
 	up = !git pull --rebase --prune $@ && git submodule update --init --recursive
+	undo = reset HEAD~1 --mixed
