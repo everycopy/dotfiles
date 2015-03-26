@@ -8,6 +8,7 @@
 	smudge = git hawser smudge %f
 	required = true
 [alias]
+	cm = !git add -A && git commit -m
 	co = checkout
 	cob = checkout -b
 	up = !git pull --rebase --prune $@ && git submodule update --init --recursive
