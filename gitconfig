@@ -1,0 +1,9 @@
+[user]
+	name = James Goode
+	email = james@sodapopandco.com
+[core]
+	excludesfile = /Users/james/.gitignore_global
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true
