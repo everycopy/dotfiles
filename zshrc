@@ -55,11 +55,6 @@ bindkey '^[[B' history-search-forward
 PROMPT=$'%{\e[0;%(?.32.31)m%}>:%{\e[0m%} '
 RPROMPT='%F{8}%~%F{reset}'
 
-# ZSH
-alias config='e ~/.zshrc'
-alias dotfiles='e ~/Documents/Code/dotfiles'
-alias reload='. ~/.zshrc && echo "Your .zshrc was reloaded."'
-
 # Navigation
 alias ...='../..'
 alias ....='../../..'
@@ -85,6 +80,5 @@ alias w='which'
 alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
 alias flush="dscacheutil -flushcache"
 alias rake="noglob rake"
-
-# Software Update
+alias reload='. ~/.zshrc && echo "Your .zshrc was reloaded."'
 alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm update npm -g; npm update -g; gem update --system; gem update; gem cleanup'
