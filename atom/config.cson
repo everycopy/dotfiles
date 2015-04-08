@@ -1,41 +1,41 @@
-'global':
-  'release-notes':
-    'viewedVersion': '0.95.0'
-  'welcome':
-    'showOnStartup': false
-  'editor':
-    'fontSize': 13
-    'fontFamily': 'Source Code Pro'
-    'lineHeight': 1.4
-    'showIndentGuide': true
-    'softWrapAtPreferredLineLength': true
-    'softWrapped': true
-    'softWrap': true
-    'invisibles': {}
-  'core':
-    'disabledPackages': [
-      'background-tips'
-      'exception-reporting'
-      'metrics'
+"*":
+  "release-notes":
+    viewedVersion: "0.95.0"
+  welcome:
+    showOnStartup: false
+  editor:
+    fontSize: 13
+    fontFamily: "Source Code Pro"
+    lineHeight: 1.4
+    showIndentGuide: true
+    softWrapAtPreferredLineLength: true
+    softWrapped: true
+    softWrap: true
+    invisibles: {}
+  core:
+    disabledPackages: [
+      "background-tips"
+      "exception-reporting"
+      "metrics"
     ]
-    'themes': [
-      'encounters-light-ui'
-      'encounters-light-syntax'
+    themes: [
+      "encounters-light-ui"
+      "encounters-light-syntax"
     ]
-    'ignoredNames': [
-      '.DS_Store'
-      '.git'
-      '.hg'
-      '.sass-cache'
-      '.svn'
-      'bower_components'
-      'components'
-      'CVS'
-      'node_modules'
-      'temp'
-      'Thumbs.db'
+    ignoredNames: [
+      ".DS_Store"
+      ".git"
+      ".hg"
+      ".sass-cache"
+      ".svn"
+      "bower_components"
+      "components"
+      "CVS"
+      "node_modules"
+      "temp"
+      "Thumbs.db"
     ]
-  'autosave':
-    'enabled': true
-  'tree-view':
-    'hideIgnoredNames': true
+  autosave:
+    enabled: true
+  "tree-view":
+    hideIgnoredNames: true

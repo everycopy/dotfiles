@@ -8,22 +8,30 @@
  * http://www.lesscss.org
  */
 
-// Change the matched bracket underline colour
-// .bracket-matcher {
-//   border-bottom: 1px solid #ffd440;
-// }
+.tree-view {
+
+}
+
+// style the background and foreground colors on the atom-text-editor-element
+// itself
+atom-text-editor {
+
+}
+
+// To style other content in the text editor's shadow DOM, use the ::shadow
+// expression
 
 // Make the cursor more prominent
-.editor .cursor {
+atom-text-editor::shadow .cursor {
   border-left: 2px solid;
 }
 
 // Make the line numbers the proper colour
-.editor .gutter .line-number {
+atom-text-editor::shadow .gutter .line-number {
   opacity: 1;
 }
 
-// Hide the 'Send Feedback' link
-.feedback-status {
+// Hide the "1-minute survey" link
+feedback-status {
   display: none;
 }
