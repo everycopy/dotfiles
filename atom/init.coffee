@@ -9,6 +9,3 @@
 # atom.workspace.observeTextEditors (editor) ->
 #   editor.onDidSave ->
 #     console.log "Saved! #{editor.getPath()}"
-
-atom.workspaceView.command 'editor:insert-br', ->
-  atom.workspace.getActiveEditor()?.insertText('<br>')
