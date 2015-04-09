@@ -3,6 +3,7 @@
 	email = james@sodapopandco.com
 [core]
 	excludesfile = /Users/james/.gitignore_global
+	editor = atom --wait
 [alias]
 	amend = commit -a --amend
 	cm = !git add -A && git commit -m
@@ -12,14 +13,14 @@
 	up = !git pull --rebase --prune $@ && git submodule update --init --recursive
 	undo = reset HEAD~1 --mixed
 [push]
-	default = simple	
+	default = simple
 [filter "hawser"]
 	clean = git hawser clean %f
 	smudge = git hawser smudge %f
 	required = true
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
+	path =
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
