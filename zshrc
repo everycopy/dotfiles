@@ -14,6 +14,19 @@ autoload -U colors
 colors
 setopt prompt_subst
 
+autoload -Uz vcs_info
+zstyle ':vcs_info:*' actionformats \
+    ' [%b|%a]'
+zstyle ':vcs_info:*' formats       \
+    ' [%b]'
+zstyle ':vcs_info:*' enable git
+vcs_info_wrapper() {
+  vcs_info
+  if [ -n "$vcs_info_msg_0_" ]; then
+    echo "%{$fg[grey]%}${vcs_info_msg_0_}%{$reset_color%}$del"
+  fi
+}
+
 # Default Apps
 EDITOR='atom'
 BROWSER='open'
@@ -53,7 +66,7 @@ bindkey '^[[B' history-search-forward
 # Prompt
 # Show '>:' in green when things are happy and red when they're not.
 PROMPT=$'%{\e[0;%(?.32.31)m%}>:%{\e[0m%} '
-RPROMPT='%F{8}%~%F{reset}'
+RPROMPT='%F{8}%~%F{reset}$(vcs_info_wrapper)'
 
 # Navigation
 alias ...='../..'
