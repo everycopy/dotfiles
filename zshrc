@@ -91,6 +91,7 @@ alias w='which'
 
 # Extras
 alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
+alias dotfiles=""
 alias flush="dscacheutil -flushcache"
 alias rake="noglob rake"
 alias reload='. ~/.zshrc && echo "Your .zshrc was reloaded."'
