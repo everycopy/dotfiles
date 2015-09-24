@@ -28,7 +28,7 @@ vcs_info_wrapper() {
 }
 
 # Default Apps
-EDITOR='atom'
+EDITOR='subl'
 BROWSER='open'
 PAGER='less'
 
