@@ -5,8 +5,6 @@
 	],
 	"installed_packages":
 	[
-		"AdvancedNewFile",
-		"GitGutter",
 		"Package Control",
 		"Theme - El Capitan"
 	]
