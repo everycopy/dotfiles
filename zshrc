@@ -5,6 +5,7 @@ export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin
 export RBENV_ROOT=/usr/local/var/rbenv
 
 # Functions
+fpath=(/usr/local/share/zsh-completions $fpath)
 fpath=(~/.zsh/functions $fpath)
 autoload -U ~/.zsh/functions/*(:t)
 eval "$(rbenv init -)"
