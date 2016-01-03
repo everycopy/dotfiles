@@ -5,7 +5,9 @@
 	],
 	"installed_packages":
 	[
+		"Better CoffeeScript",
 		"Package Control",
+		"Sass",
 		"Theme - El Capitan"
 	]
 }
