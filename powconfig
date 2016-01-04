@@ -1,2 +1,0 @@
-# Set this before installing Pow to let it play happily with Apache.
-# export POW_DST_PORT=88
