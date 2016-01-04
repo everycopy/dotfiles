@@ -5,7 +5,7 @@
 	"dictionary": "Packages/Language - English/en_GB.dic",
 	"el_capitan_font_default": false,
 	"el_capitan_font_helvetica": false,
-	"el_capitan_font_helvetica_neue": true,
+	"el_capitan_font_helvetica_neue": false,
 	"el_capitan_font_san_francisco": false,
 	"el_capitan_sidebar_blue_folders": true,
 	"ensure_newline_at_eof_on_save": true,
