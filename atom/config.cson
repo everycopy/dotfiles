@@ -1,17 +1,6 @@
 "*":
-  "release-notes":
-    viewedVersion: "0.95.0"
-  welcome:
-    showOnStartup: false
-  editor:
-    fontSize: 13
-    fontFamily: "Source Code Pro"
-    lineHeight: 1.4
-    showIndentGuide: true
-    softWrapAtPreferredLineLength: true
-    softWrapped: true
-    softWrap: true
-    invisibles: {}
+  autosave:
+    enabled: true
   core:
     disabledPackages: [
       "background-tips"
@@ -31,11 +20,18 @@
       "temp"
       "Thumbs.db"
     ]
-    themes: [
-      "encounters-light-ui"
-      "encounters-light-syntax"
-    ]
-  autosave:
-    enabled: true
+  editor:
+    fontFamily: "Input Mono"
+    fontSize: 12
+    invisibles: {}
+    lineHeight: 1.4
+    showIndentGuide: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+    softWrapped: true
+  "release-notes":
+    viewedVersion: "0.95.0"
   "tree-view":
     hideIgnoredNames: true
+  welcome:
+    showOnStartup: false
