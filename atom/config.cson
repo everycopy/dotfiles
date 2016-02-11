@@ -20,6 +20,10 @@
       "temp"
       "Thumbs.db"
     ]
+    themes: [
+      "encounters-dark-ui"
+      "encounters-dark-syntax"
+    ]
   editor:
     fontFamily: "Input Mono"
     fontSize: 12
