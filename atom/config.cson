@@ -25,10 +25,10 @@
       "encounters-dark-syntax"
     ]
   editor:
+    backUpBeforeSaving: true
     fontFamily: "Input Mono"
     fontSize: 12
     invisibles: {}
-    lineHeight: 1.4
     showIndentGuide: true
     softWrap: true
     softWrapAtPreferredLineLength: true
