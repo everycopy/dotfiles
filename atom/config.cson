@@ -25,8 +25,8 @@
     ]
   editor:
     backUpBeforeSaving: true
-    fontFamily: "Input Mono"
-    fontSize: 12
+    fontFamily: "Source Code Pro"
+    fontSize: 13
     invisibles: {}
     showIndentGuide: true
     softWrap: true
