@@ -20,8 +20,8 @@
       "Thumbs.db"
     ]
     themes: [
-      "encounters-dark-ui"
-      "encounters-dark-syntax"
+      "encounters-light-ui"
+      "encounters-light-syntax"
     ]
   editor:
     backUpBeforeSaving: true
