@@ -1,6 +1,5 @@
 # Paths
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin
-source /usr/local/dev-env/ansible/mac_profile
 
 # Use Homebrew rather than ~/.rbenv
 export RBENV_ROOT=/usr/local/var/rbenv
