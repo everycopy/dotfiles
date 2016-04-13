@@ -1,5 +1,5 @@
 # Paths
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/latest/bin
 source /usr/local/dev-env/ansible/mac_profile
 
 # Use Homebrew rather than ~/.rbenv
