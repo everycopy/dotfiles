@@ -6,8 +6,6 @@
       "background-tips"
       "exception-reporting"
       "metrics"
-      "linter-eslint"
-      "language-javascript-jsx"
     ]
     ignoredNames: [
       ".DS_Store"
