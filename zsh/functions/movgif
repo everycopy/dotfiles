@@ -1,7 +1,8 @@
 # Convert a QuickTime file to a GIF
 # brew install ffmpeg
 # brew install imagemagick
+# movgif 320 file_name.mov file_name.gif
 function movgif () {
-    ffmpeg -i "$1" -vf scale=800:-1 -r 10 -f image2pipe -vcodec ppm - |\
-    convert -delay 5 -layers Optimize -loop 0 - "$2"
+    ffmpeg -i "$2" -vf scale="$1":-1 -r 12 -f image2pipe -vcodec ppm - |\
+    convert -delay 6 -layers Optimize -loop 0 - "$3"
 }
