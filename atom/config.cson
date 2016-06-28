@@ -6,6 +6,8 @@
       "background-tips"
       "exception-reporting"
       "metrics"
+      "linter"
+      "linter-eslint"
     ]
     ignoredNames: [
       ".DS_Store"
