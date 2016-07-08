@@ -27,3 +27,6 @@ defaults write com.apple.dock mru-spaces -bool false
 
 # Don't hide the iPhone Simulator app inside Xcode
 ln -s /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app /Applications/Simulator.app
+
+# Generate compact SVGs exported from Sketch
+defaults write com.bohemiancoding.sketch3 exportCompactSVG -bool yes

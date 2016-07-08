@@ -6,6 +6,8 @@
       "background-tips"
       "exception-reporting"
       "metrics"
+      "linter"
+      "linter-eslint"
     ]
     ignoredNames: [
       ".DS_Store"
@@ -26,7 +28,6 @@
   editor:
     backUpBeforeSaving: true
     fontFamily: "Source Code Pro"
-    fontSize: 13
     invisibles: {}
     showIndentGuide: true
     softWrap: true
