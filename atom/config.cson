@@ -27,7 +27,7 @@
     ]
   editor:
     backUpBeforeSaving: true
-    fontFamily: "Source Code Pro"
+    fontFamily: "SF Mono"
     invisibles: {}
     showIndentGuide: true
     softWrap: true
