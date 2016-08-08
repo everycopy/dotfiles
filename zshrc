@@ -82,7 +82,6 @@ alias ls='ls -F'
 alias ll='ls -alF'
 
 # Shortcuts
-alias dt='cd ~/Desktop'
 alias g='git'
 alias o='open'
 alias oo='open .'
