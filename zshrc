@@ -1,5 +1,5 @@
 # Paths
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/dev-env/bin
 
 # Use Homebrew rather than ~/.rbenv
 export RBENV_ROOT=/usr/local/var/rbenv
