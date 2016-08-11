@@ -8,6 +8,7 @@ export RBENV_ROOT=/usr/local/var/rbenv
 fpath=(/usr/local/share/zsh-completions $fpath)
 fpath=(~/.zsh/functions $fpath)
 autoload -U ~/.zsh/functions/*(:t)
+eval "$(docker-machine env dev)"
 eval "$(rbenv init -)"
 
 # Colours
