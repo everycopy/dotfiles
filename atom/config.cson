@@ -6,7 +6,6 @@
       "background-tips"
       "exception-reporting"
       "metrics"
-      "emmet"
     ]
     ignoredNames: [
       ".DS_Store"
@@ -35,7 +34,6 @@
     softWrap: true
     softWrapAtPreferredLineLength: true
     softWrapped: true
-  emmet: {}
   "release-notes":
     viewedVersion: "0.95.0"
   "split-diff":
