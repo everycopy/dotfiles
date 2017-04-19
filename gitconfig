@@ -9,6 +9,7 @@
 	cm = !git add -A && git commit -m
 	co = checkout
 	cob = checkout -b
+	prune = fetch --prune
 	st = status -s
 	save = !git add -A && git commit -m "Save changes for later"
 	up = !git pull --rebase --prune $@ && git submodule update --init --recursive
