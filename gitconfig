@@ -9,8 +9,11 @@
 	cm = !git add -A && git commit -m
 	co = checkout
 	cob = checkout -b
+	com = checkout master
+	pr = pull --rebase
 	prune = fetch --prune
 	st = status -s
+	sp = stash pop
 	save = !git add -A && git commit -m "Save changes for later"
 	up = !git pull --rebase --prune $@ && git submodule update --init --recursive
 	undo = reset HEAD~1 --mixed
