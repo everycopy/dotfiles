@@ -2,6 +2,7 @@
   autosave:
     enabled: true
   core:
+    closeDeletedFileTabs: true
     disabledPackages: [
       "background-tips"
       "exception-reporting"
