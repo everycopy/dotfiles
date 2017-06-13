@@ -9,7 +9,7 @@
 	cm = !git add -A && git commit -m
 	co = checkout
 	cob = checkout -b
-	com = checkout master
+	com = !git checkout master && git pull --rebase
 	pr = pull --rebase
 	prune = fetch --prune
 	st = status -s
