@@ -10,6 +10,7 @@
 	co = checkout
 	cob = checkout -b
 	com = !git checkout master && git pull --rebase
+	pom = pull origin master
 	pr = pull --rebase
 	prune = fetch --prune
 	st = status -s
