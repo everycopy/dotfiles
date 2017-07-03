@@ -25,7 +25,7 @@
       "encounters-light-ui"
       "encounters-light-syntax"
     ]
-    titleBar: "custom"
+    useCustomTitleBar: true
   editor:
     backUpBeforeSaving: true
     fontFamily: "SF Mono"
