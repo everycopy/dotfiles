@@ -7,6 +7,11 @@
       "background-tips"
       "exception-reporting"
       "metrics"
+      "linter-ui-default"
+      "linter"
+      "prettier-atom"
+      "busy-signal"
+      "intentions"
     ]
     ignoredNames: [
       ".DS_Store"
@@ -31,7 +36,6 @@
     fontFamily: "SF Mono"
     invisibles: {}
     showIndentGuide: true
-    showInvisibles: true
     softWrap: true
     softWrapAtPreferredLineLength: true
     softWrapped: true
@@ -48,3 +52,4 @@
     hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
+  whitespace: {}
