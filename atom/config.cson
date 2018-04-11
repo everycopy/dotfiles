@@ -9,7 +9,6 @@
       "metrics"
       "linter-ui-default"
       "linter"
-      "prettier-atom"
       "busy-signal"
       "intentions"
     ]
