@@ -26,8 +26,8 @@
     ]
     telemetryConsent: "no"
     themes: [
-      "encounters-light-ui"
-      "encounters-light-syntax"
+      "framer-ui"
+      "framer-syntax"
     ]
     titleBar: "custom"
   editor:
