@@ -98,3 +98,6 @@ alias reload='. ~/.zshrc && echo "Your .zshrc was reloaded."'
 alias update='sudo periodic daily weekly monthly; sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm update npm -g; npm update -g; gem update --system; gem update; gem cleanup'
 
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# Private
+source ~/.zsh/private/*
