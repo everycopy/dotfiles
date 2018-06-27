@@ -30,6 +30,7 @@
       "framer-syntax"
     ]
     titleBar: "custom"
+    useCustomTitleBar: true
   editor:
     backUpBeforeSaving: true
     fontFamily: "SF Mono"
