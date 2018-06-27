@@ -1,0 +1,3 @@
+# Private
+# This lets us store private keys and such, but not track them
+zsh/private/
