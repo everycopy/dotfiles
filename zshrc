@@ -1,11 +1,12 @@
 # Paths
-export PATH=:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin
+export PATH=:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/sbin:/usr/local/sbin:/usr/sbin:/sbin
 
 # Use Homebrew rather than ~/.rbenv
-export RBENV_ROOT=/usr/local/var/rbenv
+export RBENV_ROOT=/opt/homebrew/opt/rbenv
+export PATH=$RBENV_ROOT/bin:$PATH
 
 # Functions
-fpath=(/usr/local/share/zsh-completions $fpath)
+fpath=(/opt/homebrew/share/zsh-completions $fpath)
 fpath=(~/.zsh/functions $fpath)
 autoload -U ~/.zsh/functions/*(:t)
 eval "$(rbenv init -)"
@@ -97,7 +98,7 @@ alias rake="noglob rake"
 alias reload='. ~/.zshrc && echo "Your .zshrc was reloaded."'
 alias update='sudo periodic daily weekly monthly; sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm update npm -g; npm update -g; gem update --system; gem update; gem cleanup'
 
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Private
 source ~/.zsh/private/*
