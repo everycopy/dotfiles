@@ -101,4 +101,4 @@ alias update='sudo periodic daily weekly monthly; sudo softwareupdate -i -a; bre
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Private
-source ~/.zsh/private/*
+# source ~/.zsh/private/*
