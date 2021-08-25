@@ -30,7 +30,7 @@ vcs_info_wrapper() {
 }
 
 # Default Apps
-EDITOR='atom'
+EDITOR='code'
 BROWSER='open'
 PAGER='less'
 
