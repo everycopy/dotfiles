@@ -1,10 +1,6 @@
 # Paths
 export PATH=:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/sbin:/usr/local/sbin:/usr/sbin:/sbin
 
-# Use Homebrew rather than ~/.rbenv
-export RBENV_ROOT=/opt/homebrew/opt/rbenv
-export PATH=$RBENV_ROOT/bin:$PATH
-
 # Functions
 fpath=(/opt/homebrew/share/zsh-completions $fpath)
 fpath=(~/.zsh/functions $fpath)
