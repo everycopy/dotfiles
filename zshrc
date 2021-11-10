@@ -98,7 +98,7 @@ alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
 alias dotfiles="e ~/Code/dotfiles"
 alias flush="dscacheutil -flushcache"
 alias rake="noglob rake"
-alias reload='. ~/.zshrc && echo "Your .zshrc was reloaded."'
+alias reload='. ~/.zshrc && echo ".zshrc was reloaded."'
 alias update='sudo periodic daily weekly monthly; sudo softwareupdate -i -a'
 
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
