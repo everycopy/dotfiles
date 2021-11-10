@@ -12,7 +12,6 @@
 	com = !git checkout master && git pull --rebase
 	halp = !git fetch origin && git reset --hard origin
 	pom = pull origin master
-	pr = pull --rebase
 	prune = fetch --prune
 	st = status -s
 	sp = stash pop
@@ -36,3 +35,5 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[pull]
+	rebase = true
