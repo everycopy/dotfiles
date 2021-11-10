@@ -5,7 +5,6 @@ export PATH=:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/sbin:/
 fpath=(/opt/homebrew/share/zsh-completions $fpath)
 fpath=(~/.zsh/functions $fpath)
 autoload -U ~/.zsh/functions/*(:t)
-eval "$(rbenv init -)"
 
 # Colours
 autoload -U colors
