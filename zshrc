@@ -52,11 +52,18 @@ setopt no_hist_beep
 setopt share_history
 
 # Completion
-autoload -U compinit
-compinit
+autoload -Uz compinit
+compinit -u
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 zstyle ':completion:*' menu select
 zstyle ':completion:*' insert-tab pending
+
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
+
+  autoload -Uz compinit
+  compinit -u
+fi
 
 # Path
 setopt auto_cd
