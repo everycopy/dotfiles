@@ -1,8 +1,8 @@
 # Paths
-export PATH=:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/sbin:/usr/local/sbin:/usr/sbin:/sbin
+# export PATH=:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin
 
 # Functions
-fpath=(/opt/homebrew/share/zsh-completions $fpath)
+fpath=(/usr/local/share/zsh-completions $fpath)
 fpath=(~/.zsh/functions $fpath)
 autoload -U ~/.zsh/functions/*(:t)
 
@@ -100,7 +100,7 @@ alias rake="noglob rake"
 alias reload='. ~/.zshrc && echo ".zshrc was reloaded."'
 alias update='sudo periodic daily weekly monthly; sudo softwareupdate -i -a'
 
-source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Private
 # source ~/.zsh/private/*
