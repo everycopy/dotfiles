@@ -3,7 +3,7 @@
 	email = james@sodapopandco.com
 [core]
 	excludesfile = /Users/james/.gitignore_global
-	editor = atom --wait
+	editor = code --wait
 [alias]
 	amend = commit -a --amend
 	cm = !git add -A && git commit -m
