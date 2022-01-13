@@ -18,6 +18,7 @@
 	save = !git add -A && git commit -m "Save changes for later"
 	up = !git pull --rebase --prune $@ && git submodule update --init --recursive
 	undo = reset HEAD~1 --mixed
+	recent = branch --sort=-committerdate --format=\"%(committerdate:relative)%09%(refname:short)\"
 [push]
 	default = simple
 [filter "hawser"]
