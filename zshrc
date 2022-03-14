@@ -104,3 +104,6 @@ source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Private
 source ~/.zsh/private/aliases
+
+# asdf
+. /usr/local/opt/asdf/libexec/asdf.sh
