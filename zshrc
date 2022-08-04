@@ -97,6 +97,7 @@ alias dotfiles="e ~/Code/dotfiles"
 alias flush="dscacheutil -flushcache"
 alias rake="noglob rake"
 alias reload='. ~/.zshrc && echo ".zshrc was reloaded."'
+alias rpuma='puma-dev -stop; pkill puma; spring stop'
 alias update='sudo periodic daily weekly monthly; sudo softwareupdate -i -a'
 
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
