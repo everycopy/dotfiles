@@ -93,7 +93,6 @@ alias t='trash'
 alias w='which'
 
 # Extras
-alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
 alias dotfiles="e ~/Code/dotfiles"
 alias flush="dscacheutil -flushcache"
 alias rake="noglob rake"
