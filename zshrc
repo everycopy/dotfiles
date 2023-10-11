@@ -2,7 +2,7 @@
 # export PATH=:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin
 
 # Functions
-fpath=(/usr/local/share/zsh-completions $fpath)
+fpath=(/opt/homebrew/share/zsh-completions $fpath)
 fpath=(~/.zsh/functions $fpath)
 autoload -U ~/.zsh/functions/*(:t)
 
@@ -100,10 +100,12 @@ alias reload='. ~/.zshrc && echo ".zshrc was reloaded."'
 alias rpuma='puma-dev -stop; pkill puma; spring stop'
 alias update='sudo periodic daily weekly monthly; sudo softwareupdate -i -a'
 
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Private
 source ~/.zsh/private/aliases
 
 # asdf
-. /usr/local/opt/asdf/libexec/asdf.sh
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
