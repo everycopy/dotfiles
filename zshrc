@@ -1,5 +1,5 @@
 # Paths
-# export PATH=:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin
+export PATH=:/opt/local/bin:/usr/local/bin:/opt/bin:/usr/bin:/bin:/opt/local/sbin:/usr/local/sbin:/usr/sbin:/sbin
 
 # Functions
 fpath=(/opt/homebrew/share/zsh-completions $fpath)
