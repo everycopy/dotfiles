@@ -106,6 +106,6 @@ source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh/private/aliases
 
 # asdf
-. /opt/homebrew/opt/asdf/libexec/asdf.sh
+source /opt/homebrew/opt/asdf/libexec/asdf.sh
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
