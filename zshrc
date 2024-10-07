@@ -109,5 +109,3 @@ source ~/.zsh/private/aliases
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
-
-source /Users/james/.docker/init-zsh.sh || true # Added by Docker Desktop
