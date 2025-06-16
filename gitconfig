@@ -1,9 +1,11 @@
 [user]
 	name = James Goode
 	email = james@everycopy.com
+
 [core]
 	excludesfile = /Users/james/.gitignore_global
 	editor = zed --wait
+
 [alias]
 	amend = commit -a --amend
 	cm = !git add -A && git commit -m
@@ -19,8 +21,13 @@
 	up = !git pull --rebase --prune $@ && git submodule update --init --recursive
 	undo = reset HEAD~1 --mixed
 	recent = branch --sort=-committerdate --format=\"%(committerdate:relative)%09%(refname:short)\"
+
 [push]
 	default = simple
+
+[pull]
+	rebase = true
+
 [filter "hawser"]
 	clean = git hawser clean %f
 	smudge = git hawser smudge %f
@@ -36,7 +43,3 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
-# [pull]
-	# rebase = false
-[pull]
-	rebase = true
