@@ -1,6 +1,6 @@
 [user]
 	name = James Goode
-	email = james@sodapopandco.com
+	email = james@everycopy.com
 [core]
 	excludesfile = /Users/james/.gitignore_global
 	editor = code --wait
