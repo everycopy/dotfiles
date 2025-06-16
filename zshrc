@@ -11,18 +11,8 @@ autoload -U colors
 colors
 setopt prompt_subst
 
-autoload -Uz vcs_info
-zstyle ':vcs_info:*' actionformats \
-    ' [%b|%a]'
-zstyle ':vcs_info:*' formats       \
-    ' [%b]'
-zstyle ':vcs_info:*' enable git
-vcs_info_wrapper() {
-  vcs_info
-  if [ -n "$vcs_info_msg_0_" ]; then
-    echo "%{$fg[white]%}${vcs_info_msg_0_}%{$reset_color%}$del"
-  fi
-}
+# Use Spaceship for the prompt
+source "/opt/homebrew/opt/spaceship/spaceship.zsh"
 
 # Default Apps
 EDITOR='code'
