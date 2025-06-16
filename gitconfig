@@ -3,7 +3,7 @@
 	email = james@everycopy.com
 [core]
 	excludesfile = /Users/james/.gitignore_global
-	editor = code --wait
+	editor = zed --wait
 [alias]
 	amend = commit -a --amend
 	cm = !git add -A && git commit -m
