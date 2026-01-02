@@ -88,7 +88,6 @@ alias flush="dscacheutil -flushcache"
 alias rake="noglob rake"
 alias reload='. ~/.zshrc && echo ".zshrc was reloaded."'
 alias rpuma='puma-dev -stop; pkill puma; spring stop'
-alias update='sudo periodic daily weekly monthly; sudo softwareupdate -i -a'
 
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
