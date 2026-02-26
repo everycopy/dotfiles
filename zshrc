@@ -81,6 +81,7 @@ alias oo='open .'
 alias q='exit'
 alias t='trash'
 alias w='which'
+alias cc='claude'
 
 # Extras
 alias dotfiles="e ~/Code/dotfiles"
