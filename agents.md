@@ -31,7 +31,18 @@
 ## Testing
 - Write tests for new code
 - Run the test suite before considering work done
+- Never declare something done without evidence — show test output, a screenshot, or command output
 - Check the project CLAUDE.md for the specific test runner and conventions
+
+## CLAUDE.md Maintenance
+- Keep project CLAUDE.md files short — cut any line that wouldn't prevent a real mistake if deleted
+- When corrected on something non-obvious, ask whether it should be added to CLAUDE.md instead of just fixing it silently
+- Use a "Gotchas" section for one-off lessons learned (a bug's root cause, a footgun, a workaround)
+- Use CLAUDE.local.md for personal preferences that shouldn't apply to the whole team
+
+## Skills & Subagents
+- If a task gets done more than once, consider proposing a skill for it
+- For larger changes, prefer a separate review subagent (read-only tools) over self-review in the same session
 
 ## Code Style
 - Keep it simple — no over-engineering
