@@ -13,7 +13,7 @@
   gpgsign = true
 
 [core]
-	excludesfile = /Users/james/.gitignore_global
+	excludesfile = ~/Code/dotfiles/gitignore
 	editor = zed --wait
 
 [alias]
