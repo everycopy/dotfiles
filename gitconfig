@@ -1,6 +1,16 @@
 [user]
+  signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKXCJFiUBBclocVhsrJC5N09ByZ2ubyX7vH9QvcTNiNq
 	name = James Goode
 	email = james@everycopy.com
+
+[gpg]
+  format = ssh
+
+[gpg "ssh"]
+  program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
+
+[commit]
+  gpgsign = true
 
 [core]
 	excludesfile = /Users/james/.gitignore_global
