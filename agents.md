@@ -26,7 +26,7 @@
 - Platform: macOS, zsh, Homebrew
 - Editor: Zed (`zed`)
 - Terminal: Ghostty
-- NEVER edit `.env` or environment variable files
+- NEVER edit `.env` or environment variable files (`.env.example` is fine — placeholders only, no secrets)
 
 ## Testing
 - Write tests for new code
