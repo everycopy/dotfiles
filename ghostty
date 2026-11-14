@@ -46,7 +46,7 @@
 theme = Apple System Colors
 
 font-family = "iA Writer Duo"
-font-size = 16
+font-size = 15
 cursor-style = block
 # Stop shell/apps (zsh, vim, etc.) from overriding the cursor shape
 shell-integration-features = no-cursor
