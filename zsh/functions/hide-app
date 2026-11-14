@@ -1,3 +1,0 @@
-# Hide an app in Launchpad
-# eg 'hide-app "Application Name"'
-sqlite3 $(sudo find /private/var/folders -name com.apple.dock.launchpad)/db/db "DELETE FROM apps WHERE title='$1';" && killall Dock
