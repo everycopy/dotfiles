@@ -81,9 +81,6 @@ source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # Private
 [[ -f ~/.zsh/private/aliases ]] && source ~/.zsh/private/aliases
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 export PATH="$HOME/.local/bin:$PATH"
 # Terminals get mise's prompt hook. Apps that load the environment through a
 # non-TTY `zsh -i -l -c` (Paseo, Zed) get shims instead, so tools still follow
