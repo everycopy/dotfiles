@@ -21,9 +21,9 @@
 	cm = !git add -A && git commit -m
 	co = checkout
 	cob = checkout -b
-	com = !git checkout master && git pull --rebase
+	com = !git checkout main && git pull --rebase
 	halp = !git fetch origin && git reset --hard origin
-	pom = pull origin master
+	pom = pull origin main
 	prune = fetch --prune
 	st = status -s
 	sp = stash pop
@@ -37,11 +37,6 @@
 
 [pull]
 	rebase = true
-
-[filter "hawser"]
-	clean = git hawser clean %f
-	smudge = git hawser smudge %f
-	required = true
 
 [filter "lfs"]
 	clean = git-lfs clean -- %f

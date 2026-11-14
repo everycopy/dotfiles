@@ -1,7 +1,7 @@
 A simple collection of configuration doodahs for making this little machine run like it's *meant* to.
 
 ```
-brew install asdf zsh gh git spaceship zsh-completion zsh-autosuggestions
+brew install mise zsh gh git spaceship zsh-completions zsh-autosuggestions
 brew install --cask ghostty
 ```
 
@@ -9,6 +9,7 @@ Nothing here installs itself, so link it up:
 
 ```
 ln -s ~/Code/dotfiles/zshrc          ~/.zshrc
+ln -s ~/Code/dotfiles/zprofile       ~/.zprofile
 ln -s ~/Code/dotfiles/gitconfig      ~/.gitconfig
 ln -s ~/Code/dotfiles/gemrc          ~/.gemrc
 ln -s ~/Code/dotfiles/irbrc          ~/.irbrc
@@ -22,4 +23,4 @@ ln -s ~/Code/dotfiles/ghostty        ~/.config/ghostty/config
 
 `gitignore` and `allowed_signers` need no symlink — `gitconfig` points at them in place.
 
-Private aliases live in `zsh/private/`, which is deliberately untracked.
+Private aliases live in `~/.zsh/private/aliases`, outside the repo. `zshrc` sources them if present.
