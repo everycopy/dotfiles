@@ -32,6 +32,7 @@
 - Write tests for new code
 - Run the test suite before considering work done
 - Never declare something done without evidence — show test output, a screenshot, or command output
+- For bug fixes, write a test that fails before the fix and passes after; show both runs
 - Check the project CLAUDE.md for the specific test runner and conventions
 
 ## CLAUDE.md Maintenance
@@ -43,6 +44,7 @@
 ## Skills & Subagents
 - If a task gets done more than once, consider proposing a skill for it
 - For larger changes, prefer a separate review subagent (read-only tools) over self-review in the same session
+- After fixing review findings, re-review only the fix diff, not the whole change. Stop after 3 rounds and report what's still open
 
 ## Code Style
 - Keep it simple — no over-engineering
