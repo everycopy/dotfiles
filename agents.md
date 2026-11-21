@@ -52,7 +52,7 @@
 - If a task gets done more than once, consider proposing a skill for it
 - For larger changes, prefer a separate review subagent (read-only tools) over self-review in the same session
 - After fixing review findings, re-review only the fix diff, not the whole change. Stop after 3 rounds and report what's still open
-- When delegating, pick a Paseo agent profile by its notes; if none fit: high effort for research, design and hard debugging, medium for routine building, low for mechanical chores
+- When delegating, pick a Paseo agent profile by its notes and say which one you picked and why; if none fit: high effort for research, design and hard debugging, medium for routine building, low for mechanical chores. If a delegated task turns out harder than its profile, raise its thinking level rather than letting it struggle
 
 ## Code Style
 
