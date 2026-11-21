@@ -40,6 +40,12 @@
 - For bug fixes, write a test that fails before the fix and passes after; show both runs
 - Check the project CLAUDE.md for the specific test runner and conventions
 
+## iOS / Xcode
+
+- Simulators are named `<Project> - <Who>` (e.g. `Rummage - Claude`, `Rummage - Agent 2`) so it's obvious which is whose. Stock ones (`iPhone 17` etc.) are mine for manual use — don't build or test on them
+- Reuse your simulator if it exists (`xcrun simctl list devices | grep "<Project> - "`), else create it: `xcrun simctl create "<Project> - Claude" "iPhone 17" <runtime>`; give each delegated agent its own and delete it when the agent's done
+- Target by name: `-destination 'platform=iOS Simulator,name=<Project> - Claude'`; only shut down or erase your own simulators, never `simctl shutdown all`
+
 ## CLAUDE.md Maintenance
 
 - Keep project CLAUDE.md files short — cut any line that wouldn't prevent a real mistake if deleted
